@@ -1,5 +1,7 @@
+import TextSessionTitle from "./components/TextSessionTitle";
+
 const App = () => {
-  return <div>eita</div>;
+  return <TextSessionTitle />;
 };
 
 export default App;
