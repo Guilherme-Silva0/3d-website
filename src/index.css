@@ -5,10 +5,10 @@
 html,
 body,
 #root {
-  @apply w-screen h-screen font-outfit;
+  @apply w-screen h-screen font-outfit overflow-x-hidden;
 }
 
 body {
   background: url(/mountains.jpg);
-  @apply bg-[/glogo.png] bg-center bg-cover bg-no-repeat;
+  @apply bg-zinc-950 bg-center bg-cover bg-no-repeat bg-fixed;
 }
